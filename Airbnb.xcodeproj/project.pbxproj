@@ -11,6 +11,7 @@
 		DADE1BA22B61E7AF00403610 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADE1BA12B61E7AF00403610 /* ContentView.swift */; };
 		DADE1BA42B61E7B100403610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADE1BA32B61E7B100403610 /* Assets.xcassets */; };
 		DADE1BA72B61E7B100403610 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADE1BA62B61E7B100403610 /* Preview Assets.xcassets */; };
+		DADE1BB22B61E85600403610 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADE1BB12B61E85600403610 /* APIService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DADE1BA12B61E7AF00403610 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DADE1BA32B61E7B100403610 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DADE1BA62B61E7B100403610 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DADE1BB12B61E85600403610 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,11 @@
 		DADE1B9E2B61E7AF00403610 /* Airbnb */ = {
 			isa = PBXGroup;
 			children = (
+				DADE1BB02B61E83800403610 /* Services */,
+				DADE1BAF2B61E83100403610 /* ViewModels */,
+				DADE1BAE2B61E82A00403610 /* Models */,
+				DADE1BAD2B61E82400403610 /* Views */,
 				DADE1B9F2B61E7AF00403610 /* AirbnbApp.swift */,
-				DADE1BA12B61E7AF00403610 /* ContentView.swift */,
 				DADE1BA32B61E7B100403610 /* Assets.xcassets */,
 				DADE1BA52B61E7B100403610 /* Preview Content */,
 			);
@@ -65,6 +70,36 @@
 				DADE1BA62B61E7B100403610 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DADE1BAD2B61E82400403610 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DADE1BA12B61E7AF00403610 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DADE1BAE2B61E82A00403610 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DADE1BAF2B61E83100403610 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DADE1BB02B61E83800403610 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DADE1BB12B61E85600403610 /* APIService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DADE1BA22B61E7AF00403610 /* ContentView.swift in Sources */,
+				DADE1BB22B61E85600403610 /* APIService.swift in Sources */,
 				DADE1BA02B61E7AF00403610 /* AirbnbApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
